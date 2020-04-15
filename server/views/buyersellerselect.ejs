@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.standalone.min.css">
+  <link rel="stylesheet" href="now-ui-kit.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/nucleo-icons.css" type="text/css">
+  <script src="assets/js/navbar-ontop.js"></script>
+  <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
+  <title>TIME CUBE</title>
+  <meta name="description" content="Start your development with a beautiful Bootstrap 4 UI kit. It is yours Free.">
+  <meta name="keywords" content="bootstrap 4, bootstrap 4 uit kit, bootstrap 4 kit, now ui, now ui kit, creative tim, html kit, html css template, web template, bootstrap, bootstrap 4, css3 template, frontend, responsive bootstrap template, bootstrap ui kit, responsive ui kit">
+</head>
+
+<body class="">
+  <div class="text-center parallax cover gradient-overlay py-0" style="background-image: url(&quot;./assets/img/header.jpg&quot;);position:relative;background-position:center center;background-size:cover;">
+    <div class="container d-flex flex-column">
+      <div class="row my-auto">
+        <div class="text-white col-md-12 my-0">
+          <img class="mb-5" src="./assets/img/now-logo.png" width="100">
+          <h1 class="display-2 mb-1">TIME CUBE</h1>
+          <h2 contenteditable="true" class="w-100">ARE YOU A CUSTOMER OR SHOP-OWNER</h2>
+          <form action="/buyer" method="POST" id="buyerid"></form>
+		  <form action="/seller" method="POST" id="sellerid"></form>
+          <button class="btn btn-primary rounded btn-lg mx-2" form="buyerid" type="submit">CUSTOMER</button>
+          <button class="btn btn-primary rounded btn-lg" form="sellerid" type="submit">SHOP OWNER</button>
+          <div class="row"></div>
+          <a class="btn btn-primary rounded btn-lg my-4" href="/" role="button">BACK</a>
+          <h6 class="text-muted my-0 mt-5 mb-0">
+            <b>DEVELOPED BY VJ ESHWAR VIGNESH FOR IBM CODE FOR CALL <a href="#"></b>
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="assets/js/parallax.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('[data-toggle="popover"]').popover();
+      $('[data-toggle="tooltip"]').tooltip();
+      $('#datepicker-example').datepicker({
+        calendarWeeks: true,
+        autoclose: true,
+        todayHighlight: true
+      });
+    });
+  </script>
+  </body>
+
+</html>
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Cube Time</title>
+</head>
+<body>
+	<h1>Welcome to Cube Time</h1>
+	<p> Select Buyer or Seller</p>
+	<form action="/buyer" method="POST" id="buyerid"></form>
+	<form action="/seller" method="POST" id="sellerid"></form>
+	<button type="submit" form="buyerid" value="submit">Buyer</button>
+	<button type="submit" form="sellerid" value="submit">Seller</button>
+</body>
+</html> -->

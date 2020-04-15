@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.standalone.min.css">
+  <link rel="stylesheet" href="now-ui-kit.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/nucleo-icons.css" type="text/css">
+  <script src="assets/js/navbar-ontop.js"></script>
+  <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
+  <title>Time Cube</title>
+  <meta name="description" content="Start your development with a beautiful Bootstrap 4 UI kit. It is yours Free.">
+  <meta name="keywords" content="bootstrap 4, bootstrap 4 uit kit, bootstrap 4 kit, now ui, now ui kit, creative tim, html kit, html css template, web template, bootstrap, bootstrap 4, css3 template, frontend, responsive bootstrap template, bootstrap ui kit, responsive ui kit">
+</head>
+
+<body class="justify-content-center">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" title="IBM Call for Code" data-placement="bottom" data-toggle="tooltip" href="#"><b class="head12">TIME CUBE</b></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNowUIKitFree">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <div class="pt-5 d-flex">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="mt-5 mb-2 justify-content-center d-flex" contenteditable="true">
+            <b>TIME CUBE</b></h1>
+          <h3 class="justify-content-center d-flex mt-2 mb-2">
+            <b>LOGIN TO YOUR ACCOUNT</b></h3>
+        </div>
+      </div>
+      <form class="needs-validation" novalidate id="sellersign" method="POST" action="/buyerlogin">
+        <div class="row d-flex justify-content-center">
+          <div class="justify-content-center col-sm-2 col-md-4 ml-5 pl-5" style="">
+            <div class="form-group"> <label>Email address</label> <input type="email" name="usermail" class="form-control" placeholder="Enter email" required>  <div class="valid-feedback">
+        	Looks good!
+      		</div> 
+      			<small class="form-text text-muted">We'll never share your email with anyone else.</small> </div>
+            <div class="form-group"> <label>Password</label> <input type="password" name="userpass" class="form-control" placeholder="Password" required> <div class="valid-feedback">
+        	Looks good!
+      		</div> </div>
+      		<a class="btn btn-primary" href="/" role="button">Back</a>
+      		 <button type="submit" class="btn btn-primary">Submit</button>
+
+          </div>
+
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="assets/js/parallax.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('[data-toggle="popover"]').popover();
+      $('[data-toggle="tooltip"]').tooltip();
+      $('#datepicker-example').datepicker({
+        calendarWeeks: true,
+        autoclose: true,
+        todayHighlight: true
+      });
+    });
+  </script>
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+</body>
+
+</html>

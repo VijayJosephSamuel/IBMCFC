@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.standalone.min.css">
+  <link rel="stylesheet" href="now-ui-kit.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/nucleo-icons.css" type="text/css">
+  <script src="assets/js/navbar-ontop.js"></script>
+  <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
+  <title>Time Cube</title>
+  <meta name="description" content="Start your development with a beautiful Bootstrap 4 UI kit. It is yours Free.">
+  <meta name="keywords" content="bootstrap 4, bootstrap 4 uit kit, bootstrap 4 kit, now ui, now ui kit, creative tim, html kit, html css template, web template, bootstrap, bootstrap 4, css3 template, frontend, responsive bootstrap template, bootstrap ui kit, responsive ui kit">
+</head>
+
+<body class="justify-content-center">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" title="IBM Call for Code" data-placement="bottom" data-toggle="tooltip" href="#"><b class="head12">TIME CUBE</b></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNowUIKitFree">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <div class="pt-5 d-flex">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="mt-5 mb-2 justify-content-center d-flex" contenteditable="true">
+            <b>TIME CUBE</b></h1>
+          <h3 class="justify-content-center d-flex mt-2 mb-2">
+            <b>SHOP OWNER SIGNUP</b></h3>
+        </div>
+      </div>
+      <form  class="needs-validation" novalidate id="sellersign" method="POST" action="/sellersignup">
+        <div class="form-group row d-flex"> <label type="text" for="shopname" class="col-form-label d-flex col-2">Shopname</label>
+          <div class="col-10">
+            <input type="text" class="form-control d-flex justify-content-center" name="shopname" placeholder="Super Market" required> </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group row"> <label for="email" class="col-2 col-form-label">E-mail</label>
+              <div class="col-10">
+                <input type="email" class="form-control" name="email" placeholder="mail@example.com" required> </div>
+            </div>
+            <div class="form-group row"> <label for="city" class="col-2 col-form-label">City</label>
+              <div class="col-10">
+                <input type="text" class="form-control" name="city" placeholder="Cuddalore" required> </div>
+            </div>
+            <div class="form-group row"> <label for="locality" class="col-2 col-form-label">Locality</label>
+              <div class="col-10">
+                <input type="text" class="form-control" name="locality" placeholder="Manjakuppam" required> </div>
+            </div>
+            <div class="form-group row"> <label for="pincode" class="col-2 col-form-label">Pincode</label>
+              <div class="col-10">
+                <input type="number" class="form-control" name="pincode" placeholder="607001" required> </div>
+            </div>
+            <div class="form-group row"> <label for="contact" class="col-2 col-form-label">Contact</label>
+              <div class="col-10">
+                <input type="number" class="form-control" name="contact" placeholder="9125035786" required> </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group row"> <label for="userpass" class="col-2 col-form-label">Password</label>
+              <div class="col-10">
+                <input type="password" class="form-control" name="userpass" placeholder="Password" required> </div>
+            </div>
+            <div class="form-group row"> <label for="opentime" class="col-form-label d-flex col-4" style="">Open Time</label>
+              <div class="col-8" style="">
+                <input type="time" class="form-control d-flex" name="opentime" placeholder="" required> </div>
+            </div>
+            <div class="form-group row"> <label for="closetime" class="col-form-label col-4" style="">Close Time</label>
+              <div class="col-8" style="">
+                <input type="time" class="form-control" name="closetime" placeholder="" required> </div>
+            </div>
+            <div class="form-group row"> <label for="capacity" class="col-form-label col-4" style="">Customers Per Slot</label>
+              <div class="col-8" style="">
+                <input type="text" class="form-control" name="capacity" placeholder="25" required> </div>
+            </div>
+            <div class="form-group row"> <label for="slottime(minutes)" class="col-form-label col-4" style="">Per slot time</label>
+              <div class="col-8" style="">
+                <input type="number" class="form-control" name="slottime" placeholder="15" required> </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-md-12 d-flex justify-content-center">
+          	<a class="btn btn-primary mx-4" href="/signup" role="button">BACK</a>
+          	<button type="submit" class="btn btn-primary">Submit</button></div>
+        </div>
+        <h6 class="text-muted my-0 mt-5 mb-0 d-flex justify-content-center">
+            <b>DEVELOPED BY VJ ESHWAR VIGNESH FOR IBM CODE FOR CALL <a href="#"></b>
+          </h6>
+      </form>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="assets/js/parallax.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('[data-toggle="popover"]').popover();
+      $('[data-toggle="tooltip"]').tooltip();
+      $('#datepicker-example').datepicker({
+        calendarWeeks: true,
+        autoclose: true,
+        todayHighlight: true
+      });
+    });
+  </script>
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Seller Signup</title>
+</head>
+<body>
+	<h1>Seller Signup</h1>
+	<form method="POST" action="/sellersignup">
+		<p>Shop Name : <input type="text" name="shopname"></p>
+		<p>Email : <input type="text" name="email"></p>
+		<p>City : <input type="text" name="city"></p>
+		<p>Locality: <input type="text" name="locality"></p>
+		<p>Pincode : <input type="number" name="pincode"></p>
+		<p>Contact : <input type="number" name="contact"></p>
+		<p>Shop Open Time: <input type="time" name="opentime"></p>
+		<p>Shop Close Time : <input type="time" name="closetime"></p>
+		<p>Total User Capacity : <input type="number" name="capacity"></p>
+		<p>Slot time : <input type="number" name="slottime"></p>
+		<p>Password: <input type="Password" name="userpass"></p>
+		<input type="submit" name="Save User">
+		
+	</form>
+</body>
+</html> -->

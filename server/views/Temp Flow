@@ -1,0 +1,7 @@
+Welcome.ejs -> loginpage.ejs/signuppage.ejs
+
+Loginpage.ejs -> buyerlogin.ejs/sellerlogin.ejs
+
+signippage.ejs -> buyersign.ejs/sellersign.ejs
+
+(Buyermain.ejs)
