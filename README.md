@@ -29,5 +29,5 @@ This is a local shopping scheduler app. Users can schedule their shopping here.
     </a>
 </p>
 
-
+### USE USERNAME : vijaysamuel@mail.com, password: 12345
 
