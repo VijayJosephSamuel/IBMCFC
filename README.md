@@ -24,8 +24,8 @@ This is a local shopping scheduler app. Users can schedule their shopping here.
 ### APP Live in Link
 
 <p align="center"> 
-    <a href="https://ibmcfc.mybluemix.net/"> TIME CUBE 
-    
+    <a href="https://ibmcfc.mybluemix.net/"> 
+    TIME CUBE 
     </a>
 </p>
 
